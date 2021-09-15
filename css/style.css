@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px ;
+    margin: 0px auto;
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+   
+}
+.part1{
+    background-color: lightgray;
+ }
+.menu{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.menu li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 0px 15px;
+    color:black;
+}
+.menu li a:hover{
+    color: Red;
+}
+.text{
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.img1{
+    width: 90px;
+    height: 60px;
+    float: left;
+}
+.img2{
+    width: 50%;
+    height: 50%;
+}
+.aboutme{
+    padding: 30px;
+    background-color: cornflowerblue;
+    text-align: center ;
+}
+.video{
+    text-align: center;
+    background-color: cornflowerblue ;
+}
