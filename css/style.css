@@ -32,6 +32,7 @@ body{
 }
 .intro .dawn{
     color: coral;
+    letter-spacing: 3px;
 }
 .intro .dawn:hover{
     color: red;
@@ -115,6 +116,63 @@ body{
     background-color: rgb(204, 252, 204);
     }
 
+    .fb{
+        width: 120px;
+        position: fixed;
+        top: 63%;
+        right: -100px;
+        border-style: solid;
+        border-color: coral;
+        border-radius: 5px;
+        transition: 1.5s;
+    }
+    .insta{
+        width: 120px;
+        position: fixed;
+        top: 70%;
+        right: -100px;
+        border-style: solid;
+          border-color: coral;
+          border-radius: 5px;
+        transition: 1.5s;
+    }
+    .twt{
+        width: 120px;
+        position: fixed;
+        top: 77%;
+        right: -100px;
+        border-style: solid;
+          border-color: coral;
+          border-radius: 5px;
+        transition: 1.5s;  
+    }
+    .yt{
+        width: 120px;
+        position: fixed;
+        top: 85%;
+        right: -100px;
+        border-style: solid;
+          border-color: coral;
+          border-radius: 5px;
+        transition: 1.5s;  
+    }
+    .fb:hover{
+        right:-1px;
+        border-color: rgb(86, 150, 224);
+    }
+    .insta:hover{
+        right:-1px;
+        border-color: rgb(241, 215, 224);
+    }
+    .twt:hover{
+        right:-1px;
+        border-color: rgb(166, 202, 243);
+    }
+    .yt:hover{
+        right:-1px;
+        border-color: rgb(255, 59, 59);
+    }    
+
 .video{
     background-color: black;
     
@@ -122,7 +180,8 @@ body{
 .video h1{
     text-align: center;
     color: coral;
-    padding: 35px;
+    padding: 45px;
+    font-size: 35px;
     
 }
 .video iframe{
@@ -197,7 +256,7 @@ body{
 .details{
     background-color: black;
     padding-top: 110px;
-  padding-bottom: 215px;
+  padding-bottom: 204px;
 }
 .details h1{
     text-align: center;
@@ -212,55 +271,7 @@ body{
     color: white;
     background-color: black;
 }
-.social-media{
-    width: 100%;
-    height: 90px;
-    background: black ;
-    padding-top: 80px;
-    margin-bottom: 5px;
-    margin-left: 50px;
-}
 
-.social-icons{
-    width: 100%;
-    text-align: center;
-}
-.social-icons li{
-    list-style: none;
-    display: inline-block; }
-
- .social-icons li a .fa{
-		width: 50px;
-		height: 50px;
-		line-height: 50px;
-		border-radius: 50%;
-		font-size: 20px;
-		margin: 0px 15px;;
-		position: relative;
-		top: 22px;
-		transition: 0.3s;
-		box-shadow: 1px 3px 2px 2px;
-}   
-
-.fa-facebook {
-	background: #3B5998;
-	color: white;
-  }
-  
-  .fa-twitter {
-	background: #55ACEE;
-	color: white;
-  }
-  
-  .fa-instagram {
-	background: #dd4b39;
-	color: white;
-  }
-   
-  .fa-youtube {
-	background: #fa0707;
-	color: white;
-  }
 
   footer{
     width: 100%;
