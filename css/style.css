@@ -6,33 +6,39 @@ body{
     font-family: sans-serif;
     font-size: 16px;
  }
-
+ 
 .header{
     width: 100%;
     float: left;
+    background-color: black;
   }
-  
-.container{
-    width: 1140px ;
-    margin: 0px auto;
-}
 .row{
     width: 100%;
     float: left;
   }
-.row .first h1{
-    margin: 10px;
-}
+.hii{
+    margin-top: 15px;
+    padding: 15px;
+    color: white;
+    }
+
 .intro{
     margin: 50px;
-    padding: 40px;
+    padding: 60px;
+    color: white;
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro .dawn{
+    color: coral;
+}
+.intro .dawn:hover{
+    color: red;
 }
 .col-6{
     width: 50%;
     float: left;
-}
-.row{
-    background-color: cadetblue;
 }
 
 .row .first img{
@@ -49,6 +55,9 @@ body{
 .menu{
     width: 100%;
     float: left;
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 .menu li{
     list-style: none;
@@ -64,104 +73,153 @@ body{
     font-weight: 500;
     padding-left: 20px;
     color: #FFFFFF;
+    font-size: 20px;
 }
-.about
-{
-    width: 100%;
-    background-color: white;
-    float: left;
-    text-align: center;
-    padding: 80px 0 80px;
-}
-.about h1, p{
- text-align: center;
- padding: 20px 0 10px 0;
- color: cadetblue;
-}
-.about button{
-    margin: 5px;
-    padding: 5px 20px 5px;
-    background-color: cadetblue;
+.menu li a:hover{
+    color: coral;
+    padding: 5px;
+    border-style: solid;
+    border-color: cornsilk;
     border-radius: 10px;
 }
+.about{
+    width: 100%;
+    background-color: black;
+    float: left;
+   text-align: center; 
+   
+}
+.about h1{
+ padding: 15px;
+ border-style: solid;
+ color: coral;
+ background-color: black;
+ background-clip: content-box;
+}
+.about p{
+    padding-top: 15px;
+    text-align: center;
+    color: coral; 
+    
+    margin: 0 333px;
+    padding-bottom: 25px;
+}
+.about button{
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.about button:hover{
+    color: coral;
+    background-color: rgb(204, 252, 204);
+    }
+
+.video{
+    background-color: black;
+    
+}    
 .video h1{
     text-align: center;
-    color: cadetblue;
-    padding: 80px 0 80px;
+    color: coral;
+    padding: 35px;
+    
 }
 .video iframe{
-   
     width: 100%    ;
     height: 500px   ;
   }
 
-  .row h1{
-      text-align: center;
-  }
+
 .col-3{
     width: 33.33%;
     float: left;
-    
-}
+  }
 .photo{
     width: 100%;
     float: left;
-    padding: 10px 0;
+   padding-bottom: 15px;
+   background-color: black;
+}
+.photo h1{
+    color : coral;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .photo .rock1 img{
     width: 350px;
     height: 560px;
+    margin-left: 20px;
     
 }
 .photo .rock2 img{
     width: 390px;
     height: 560px;
-    
+  margin-right: auto;
 }
 .photo .rock3 img{
     width : 350px;
     height: 560px;
-
+    margin-right: auto;
 }
 .photo2{
     width: 100%;
     float: left;
-   
+    padding-top: 10px;
+    height: 480x;
+    background-color: black;
+}
+.photo2 img{
+    height: 480px;
+    margin-bottom: 15px;
 }
 .photo2 .rock4 img{
     width: 300px;
-    height: 520px;
     
+    margin-left: 20px;
 }
 .photo2 .rock5 img{
-    width: 415px;
-    height: 520px;
+    width: 405px;
     
+    margin-right: 10px;
 }
 .photo2 .rock6 img{
-    width: 415px;
-    height: 520px;
-   
+    width: 405px;
+    
+    margin-right: 15px;
 }
 
-.contact img{
-    float: left;
-    width: 70%;
-   
+.conimg{
+    background-color: black;
 }
-.details h1, h3{
+
+.details{
+    background-color: black;
+    padding-top: 110px;
+  padding-bottom: 215px;
+}
+.details h1{
     text-align: center;
-    margin-top: 10px;
-    padding: 10px;
+    font-size: 60px;
+    line-height: 90px;
+    color: coral;
+    background-color: black;
 }
-
+.details h3{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: black;
+}
 .social-media{
     width: 100%;
     height: 90px;
-    background: #F3F0E0;
-    margin-top: 80px;
-    margin-bottom: 5spx; }
+    background: black ;
+    padding-top: 80px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
 
 .social-icons{
     width: 100%;
@@ -203,3 +261,18 @@ body{
 	background: #fa0707;
 	color: white;
   }
+
+  footer{
+    width: 100%;
+    text-align: center;
+ }
+  
+  .footer p{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 15px 5px;
+    color: black;
+    background-color: rgb(241, 199, 168);
+  }
+   
