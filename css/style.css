@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-    font-family: ;
-    font-size: 14px;
+    
+    font-size: 16px;
  }
 
 .header{
@@ -55,7 +55,7 @@ body{
     display: inline-block;
     margin-top: 10px;
 }
-h1{color: white;}
+
 .menu li a{
     text-decoration: none;
     margin-top: 10px;
@@ -64,4 +64,83 @@ h1{color: white;}
     font-weight: 500;
     padding-left: 20px;
     color: #FFFFFF;
+}
+.about
+{
+    width: 100%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding: 80px 0 80px;
+}
+.about h1, p{
+ text-align: center;
+ padding: 20px 0 10px 0;
+ color: cadetblue;
+}
+.about button{
+    margin: 5px;
+    padding: 5px 20px 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.video h1{
+    text-align: center;
+    color: cadetblue;
+    padding: 80px 0 80px;
+}
+.video iframe{
+   
+    width: 100%    ;
+    height: 500px   ;
+  }
+
+  .row h1{
+      text-align: center;
+  }
+.col-3{
+    width: 33.33%;
+    float: left;
+    
+}
+.photo{
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.photo .rock1 img{
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+}
+.photo .rock2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.photo .rock3 img{
+    width: 70%;
+    height: 80%;
+    margin-left: 5%;
+}
+.photo2{
+    width: 100%;
+    float: left;
+   
+}
+.photo2 .rock4 img{
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+}
+.photo2 .rock5 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.photo2 .rock6 img{
+    width: 70%;
+    height: 80%;
+    margin-left: 5%;
 }
