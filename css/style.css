@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 body{
     font-family: sans-serif;
@@ -272,12 +273,110 @@ body{
     background-color: black;
 }
 
-
-  footer{
+.social-media{
     width: 100%;
+    height: 90px;
+    background: #F3F0E0;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-bottom: 5spx; }
+
+.social-media ul{
+    list-style: none;
     text-align: center;
- }
+    font-size: 30px;
+    background-color: black;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+
+}
+.social-icons li a .fa{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin: 0px 15px;;
+    position: relative;
+    top: 22px;
+    transition: 0.3s;
+    box-shadow: 1px 3px 2px 2px;
+}
+.social-icons li a .fab{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin: 0px 15px;;
+    position: relative;
+    top: 22px;
+    transition: 0.3s;
+    box-shadow: 1px 3px 2px 2px; }
+
+    .fa-facebook-square {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-instagram{
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #fa0707;
+        color: white;
+      }
+    
+
+
+      .fa:hover {
+        opacity: 0.7;
+        background-image:     linear-gradient(
+          to right, 
+          #E7484F,
+          #E7484F 16.65%,
+          #F68B1D 16.65%,
+          #F68B1D 33.3%,
+          #FCED00 33.3%,
+          #FCED00 49.95%,
+          #009E4F 49.95%,
+          #009E4F 66.6%,
+          #00AAC3 66.6%,
+          #00AAC3 83.25%,
+          #732982 83.25%,
+          #732982 100%,
+          #E7484F 100%	   
+        );
+      animation:slidebg 4s linear infinite;
+  }
   
+  @keyframes slidebg {
+      to {
+        background-position:20vw;
+      }
+    }
+    
+
+
+
+
+  .footer{
+    width: 100%;
+    margin-top: 90px;
+    text-align: center; }
+  .footer .container .row{
+      margin-top: 100px;
+  }
   .footer p{
     text-transform: uppercase;
     font-size: 12px;
